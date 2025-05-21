@@ -1,0 +1,197 @@
+import React from "react";
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
+import Head from "next/head";
+
+export default function Services() {
+  return (
+    <div>
+      <Head>
+        <title>Our Services | Little Saigon Nails & Spa</title>
+        <meta name="description" content="Explore our professional services, including manicures, pedicures, acrylic nails, gel polish, and relaxing spa treatments." />
+        <meta name="keywords" content="nail services, manicure, pedicure, acrylic, gel nails, spa treatments, nail care" />
+      </Head>
+      <NavBar />
+      <main className="pt-[13rem] min-h-screen flex flex-col items-center mb-16 animate-[fadeIn_1s_ease-out_forwards]">
+        <div className="p-5">
+          <h1 className="font-markazi text-black text-[4rem] border-3 border-black px-20">SERVICES</h1> 
+        </div>
+        <p className="font-roboto text-black">
+          New discounted prices effective starting May 1st*
+        </p>
+
+        <div className="bg-blue-100 p-10 rounded-2xl shadow-lg w-[90%] max-w-6xl flex flex-col items-center space-y-10">
+
+          <div className="bg-blue-200 p-6 rounded-xl w-full flex flex-col items-center">
+              <div className="flex flex-col md:flex-row justify-center items-start w-full">
+                <div className="flex flex-col items-center md:items-start w-full">
+                  <h2 className="text-[2.5rem] font-markazi text-blue-500 text-center md:text-left">REGULAR</h2>
+                  <ul className="list-disc text-[1.5rem] font-markazi text-gray-700 ml-5">
+                    <li>FINGERNAIL COLOR - $12 | KIDS - $8</li>
+                    <li>TOENAIL COLOR - $15 | KIDS - $10</li>
+                    <li>MANICURE - $23 | KIDS - $15</li>
+                    <li>PEDICURE - $35 | KIDS - $23</li>
+                  </ul>
+                </div>
+                <div className="flex flex-col items-center md:items-start w-full">
+                  <h2 className="text-[2.5rem] font-markazi text-blue-500 text-center md:text-left">SHELLAC</h2>
+                  <ul className="list-disc text-[1.5rem] font-markazi text-gray-700 ml-5">
+                    <li>FINGERNAIL SHELLAC - $25 | KIDS - $18</li>
+                    <li>TOENAIL SHELLAC - $27 | KIDS - $20</li>
+                    <li>MANICURE SHELLAC - $35 | KIDS - $28</li>
+                    <li>PEDICURE SHELLAC - $50 | KIDS - $38</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="flex flex-col md:flex-row justify-center items-start w-full">
+                <div className="flex flex-col items-center md:items-start w-full">
+                  <h2 className="text-[2.5rem] font-markazi text-blue-500 text-center md:text-left">TOENAIL & FINGERNAIL CUT</h2>
+                  <ul className="list-disc text-[1.5rem] font-markazi text-gray-700 ml-5">
+                    <li>FINGERNAIL - $8 | TOENAIL - $10</li>
+                  </ul>
+                </div>
+                <div className="flex flex-col items-center md:items-start w-full">
+                  <h2 className="text-[2.5rem] font-markazi text-blue-500 text-center md:text-left">PARAFFIN WAX</h2>
+                  <ul className="list-disc text-[1.5rem] font-markazi text-gray-700 ml-5">
+                    <li>FINGERNAIL - $8 | TOENAIL - $10</li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+
+          <div className="bg-rose-300 p-6 rounded-xl w-full flex flex-col items-center">
+            <h2 className="text-[2.5rem] font-markazi text-red-700 text-center">SPECIAL COMBO</h2>
+            <ul className="list-disc text-[1.8rem] font-markazi text-white ml-5 mt-4">
+              <li>PEDICURE REGULAR + MANICURE REGULAR - $53 | KIDS - $38</li>
+              <li>PEDICURE REGULAR + MANICURE SHELLAC - $65 | KIDS - $48</li>
+              <li>PEDICURE SHELLAC + MANICURE REGULAR - $68 | KIDS - $53</li>
+              <li>PEDICURE SHELLAC + MANICURE SHELLAC - $80 | KIDS - $63</li>
+            </ul>
+          </div>
+
+          <div className="bg-blue-200 p-8 rounded-xl w-full flex flex-col md:flex-row items-start justify-center gap-12">
+  
+          <div className="flex flex-col space-y-2 w-full md:w-1/2 items-center">
+            <div className="flex flex-col items-center md:items-start">
+              <h2 className="text-[2rem] font-markazi text-blue-500">BASIC PEDICURE - $35</h2>
+            </div>
+            <div className="flex flex-col items-center md:items-start">
+              <h2 className="text-[2rem] font-markazi text-blue-500">PEDICURE + SUGAR SCRUB - $40</h2>
+            </div>
+            <div className="flex flex-col items-center">
+              <h2 className="text-[2rem] font-markazi text-blue-500">DELUXE PEDICURE - $45</h2>
+              <ul className="list-disc text-[1.3rem] font-markazi text-gray-700 ml-5 mt-2">
+                <li>Sugar scrub: Boosts skin vibrancy, tone, renews texture, diminishes lines and wrinkles, leaving skin exfoliated and feeling smooth.</li>
+                <li>Paraffin wax: Increases blood flow, relaxes muscles, decreases joint stiffness, minimizes muscle spasms and inflammation, treats sprains.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="flex flex-col space-y-5 w-full md:w-1/2">
+            <div className="flex flex-col items-center md:items-start">
+              <h2 className="text-[2rem] font-markazi text-blue-500">PEDICURE + 10 MINUTE MASSAGE - $45</h2>
+              <p className="text-[1.5rem] font-markazi text-gray-700 mt-2">Included: Sugar Scrub</p>
+            </div>
+            <div className="flex flex-col items-center md:items-start">
+              <h2 className="text-[2rem] font-markazi text-blue-500">PEDICURE + 20 MINUTE MASSAGE</h2>
+              <ul className="list-disc text-[1.3rem] font-markazi text-gray-700 ml-5 mt-2">
+                <li>Sugar Scrub: Clears dead skin and reveals newer younger-looking skin.</li>
+                <li>Hot Stone: Melts away mental stress, eases muscle stiffness, increases blood circulation, reduces tension, and promotes deep relaxation.</li>
+              </ul>
+            </div>
+          </div>
+
+          </div>
+          <div className="bg-blue-200 p-6 rounded-xl w-full">
+            <h1 className="font-markazi text-[2rem] text-blue-400 text-center md:text-left">BIO GEL ARTIFICIAL NAILS</h1>
+              <div className="w-full flex flex-col items-center">
+                <div className="flex flex-col md:flex-row justify-center items-start w-full">
+                  <div className="flex flex-col items-center md:items-start w-full">
+                    <h2 className="text-[2rem] font-markazi text-blue-500 text-center md:text-left">FULL SET (WITH TIP) - $60</h2>
+                  </div>
+                  <div className="flex flex-col items-center md:items-start w-full">
+                    <h2 className="text-[2rem] font-markazi text-blue-500 text-center md:text-left">REFILL - $50</h2>
+                  </div>
+                </div>
+                <div className="flex flex-col md:flex-row justify-center items-start w-full">
+                  <div className="flex flex-col items-center md:items-start w-full">
+                    <h2 className="text-[2rem] font-markazi text-blue-500 text-center md:text-left">OVERLAY (NO TIP) - $55</h2>
+                  </div>
+                  <div className="flex flex-col items-center md:items-start w-full">
+                    <h2 className="text-[2rem] font-markazi text-blue-500 text-center md:text-left">EXTRA LENGTH OF NAILS - $5-10</h2>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <div className="bg-rose-300 p-6 rounded-xl w-full">
+          <h1 className="font-markazi text-[2.3rem] text-center">ADDITIONAL SERVICES</h1>
+            <div className="w-full flex flex-col md:flex-row justify-center space-y-4 md:space-x-10 lg:space-x-30">
+              <div className="flex flex-col items-center flex-1">
+                <h2 className="font-markazi text-[2rem] text-red-800">OMBRE</h2>
+                <ul className="list-disc text-[1.5rem] font-markazi text-white">
+                  <li>SPARKLE OMBRE NAILS - $5</li>
+                  <li>AIRBRUSH OMBRE NAIL - $10</li>
+                  <li>COLOR OMBRE NAIL - $15</li>
+                </ul>
+              </div>
+              <div className="flex flex-col items-center flex-1 w-[100%]">
+                <h2 className="font-markazi text-[2rem] text-red-800">FRENCH DESIGN</h2>
+                <ul className="list-disc text-[1.5rem] font-markazi text-white">
+                  <li>FRENCH - $5</li>
+                  <li>DEEP FRENCH - $8</li>
+                  <li>CHROME - $10</li>
+                  <li>CAT EYE - $10</li>
+                </ul>
+              </div>
+              <div className="flex flex-col items-center flex-1">
+                <h2 className="font-markazi text-[1.8rem] text-red-800">REMOVAL</h2>
+                <ul className="text-[1.5rem] font-markazi text-white">
+                  <li className="text-[1.2rem]">WITH SERVICE: (BUFFET, FILE, SHAPE, & TRIM)</li>
+                  <span className="list-disc">
+                    <li>SHELLAC REMOVAL W/ SERVICE - $5</li>
+                    <li>ACRYLIC OR BIO GEL REMOVAL W/ SERVICE - $10</li>
+                    <li>JUST REMOVAL- $15</li>
+                  </span>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-blue-200 p-6 rounded-xl w-full">
+            <h1 className="font-markazi text-[3rem] text-blue-500 w-full text-center md:ml-6 md:text-left">WAXING</h1>
+            <div className="flex flex-col md:flex-row w-full items-center justify-center gap-4">
+                <div className="flex-1 flex flex-col items-center">
+                  <ul className="list-disc text-[1.8rem] font-markazi break-words text-gray-700">
+                    <li>UPPER LIP - $6</li>
+                    <li>CHIN - $8</li>
+                    <li>SIDEBURNS - $10</li>
+                    <li>EYEBROWS - $12</li>
+                    <li>EARS - $12</li>
+                    <li>UNDERARMS - $15</li>
+                    <li>EYEBROW TINTING - $17</li>
+                    <li>BIKINI LINE - $25</li>
+                  </ul>
+                </div>
+
+                <div className="flex-1 flex flex-col items-center">
+                  <ul className="list-disc text-[1.8rem] font-markazi break-words flex-1 text-gray-700">
+                    <li>FULL FACE - $33</li>
+                    <li>CHEST OR BELLY - $35</li>
+                    <li>HALF ARMS - $25</li>
+                    <li>FULL ARMS - $35</li>
+                    <li>HALF LEGS - $30</li>
+                    <li>FULL LEGS - $45</li>
+                    <li>BACK - $45</li>
+                    <li>BRAZILIAN - $45</li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+
+        </div>
+      </main>
+      <Footer />
+    </div>
+  );
+}

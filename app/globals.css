@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-knewave: knewave;
+  --font-kaushan: kaushan;
+  --font-markazi: markazi;
+  --font-roboto: roboto;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: knewave;
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("/fonts/Knewave-Regular.ttf");
+}
+
+@font-face {
+  font-family: kaushan;
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("/fonts/KaushanScript.ttf");
+}
+
+@font-face {
+  font-family: markazi;
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap; 
+  src: url("/fonts/Markazi.ttf");
+}
+
+@font-face {
+  font-family: roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap; 
+  src: url("/fonts/Roboto.ttf");
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

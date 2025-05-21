@@ -1,0 +1,41 @@
+//navigation bar containing all client components
+import React from "react";
+import NavLink from "./NavLink";
+import Logo from "./Logo";
+import Contact from "./Contact";
+import Socials from "./Socials";
+import { FaFacebook, FaInstagram, FaHome, FaGift, FaHeart, FaHandSparkles } from "react-icons/fa";
+import HamburgerMenu from "./HamburgerMenu";
+
+
+const NavBar = () => {
+  return (
+    <nav className="fixed top-0 left-0 w-full bg-zinc-900 p-6 z-50">
+      <div className="flex justify-between items-center w-full">
+        <div className="flex space-x-8 items-center">
+          <Logo/>
+          <div className="space-y-3">
+            <div className="font-kaushan text-extrabold text-[2.5rem]">Little Saigon <br className="2xl:hidden" /><span className="hidden md:inline">Nails & Spa</span></div>
+            <div className="font-roboto text-[0.8rem] flex justify-center md:justify-between">
+              66 MALL RD, HAMILTON, ON L8V 5B9
+              <div className="hidden 2xl:flex space-x-4">
+                <Socials href="facebook.com" icon={<FaFacebook size={20} />} />
+                <Socials href="instagram.com" icon={<FaInstagram size={20} />} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="hidden xl:flex space-x-8 items-center">
+          <NavLink href="/" text="HOME" icon={<FaHome size = {23} />} />
+          <NavLink href="/about" text="ABOUT US" icon={<FaHeart size = {23} />} />
+          <NavLink href="/services" text="SERVICES" icon={<FaHandSparkles size = {23} />} />
+          <NavLink href="/promotions" text="PROMOTIONS" icon={<FaGift size = {23} />} />
+          <Contact />
+        </div>
+        <HamburgerMenu />
+      </div>
+    </nav>
+  );
+};
+
+export default NavBar;
