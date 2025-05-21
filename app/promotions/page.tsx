@@ -2,16 +2,39 @@ import React from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import Head from "next/head";
+export const metadata = {
+  title: "Special Offers & Promotions | Little Saigon Nails Hamilton",
+  description: "View our latest nail and spa promotions. Affordable beauty services, seasonal offers, and special discounts in Hamilton, ON.",
+  keywords: [
+    "nail salon deals", "spa promotions Hamilton", "beauty discounts",
+    "manicure specials", "pedicure deals", "Hamilton nail salon promotions",
+    "nail art discounts", "affordable spa Hamilton"
+  ],
+  openGraph: {
+    title: "Promotions | Little Saigon Nails Hamilton",
+    description: "Save on nails, waxing, and spa services with our current offers.",
+    url: "https://littlesaigonnails.com/promotions",
+    siteName: "Little Saigon Nails & Spa",
+    images: [{
+      url: "https://littlesaigonnails.com/og-promotions.jpg",
+      width: 1200,
+      height: 630,
+      alt: "Little Saigon Nails promotions",
+    }],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Promotions | Little Saigon Nails & Spa",
+    description: "Check out our seasonal deals on nail and spa services in Hamilton.",
+    images: ["https://littlesaigonnails.com/og-promotions.jpg"],
+  },
+}
+
 
 export default function Promotions() {
     return (
         <>
-        <Head>
-          <title>Promotions | Little Saigon Nails & Spa</title>
-          <meta name="description" content="Check out the latest nail salon promotions and group discounts at Little Saigon Nails & Spa in Hamilton. Save on your next visit!" />
-          <meta name="keywords" content="nail salon deals, beauty discounts, spa promotions, group offers, nail specials" />
-        </Head>
-
         <NavBar />
         <main className="pt-[13rem] min-h-screen flex flex-col items-center mb-16 animate-[fadeIn_1s_ease-out_forwards]">
             <div className="relative w-[70%] min-h-screen">

@@ -3,19 +3,41 @@ import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import Image from "next/image";
 import Head from "next/head";
+export const metadata = {
+  title: "About Us | Little Saigon Nails & Spa Hamilton",
+  description: "Get to know our family-owned Hamilton nail salon. At Little Saigon Nails & Spa, we prioritize cleanliness, comfort, and care in a welcoming spa environment.",
+  keywords: [
+    "family-owned nail salon", "clean nail salon Hamilton", "nail spa story",
+    "best nail salon Hamilton", "about Little Saigon Nails", "Hamilton spa"
+  ],
+  openGraph: {
+    title: "About Us | Little Saigon Nails & Spa Hamilton",
+    description: "Discover the story and values behind our trusted Hamilton nail salon. Cleanliness, safety, and care come first.",
+    url: "https://littlesaigonnails.com/about",
+    siteName: "Little Saigon Nails & Spa",
+    images: [{
+      url: "https://littlesaigonnails.com/og-about.jpg",
+      width: 1200,
+      height: 630,
+      alt: "About Little Saigon Nails team",
+    }],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Us | Little Saigon Nails & Spa",
+    description: "Learn more about Hamilton’s most trusted nail salon.",
+    images: ["https://littlesaigonnails.com/og-about.jpg"],
+  },
+}
+
 
 export default function About() {
   return (
     <div>
-      <Head>
-        <title>About Us | Little Saigon Nails & Spa</title>
-        <meta name="description" content="Learn about Little Saigon Nails & Spa in Hamilton, our mission to deliver top-tier nail and spa services, and why clients love us." />
-        <meta name="keywords" content="about Little Saigon, nail salon story, spa team, nail care mission, beauty salon, Hamilton" />
-      </Head>
       <div className="overflow-x-hidden">
         <NavBar />
         <main className="pt-[10rem] min-h-screen flex flex-col animate-[fadeIn_1s_ease-out_forwards]">
-          {/* Hero Section */}
           <section className="relative w-full">
             <div
               className="w-full h-[20rem] bg-center bg-cover flex items-center justify-center"
@@ -64,7 +86,6 @@ export default function About() {
                 Brazilian, legs, and arms. Whether you&apos;re looking for a relaxing pedicure, kid-friendly nail care, or a full set of glamorous nails, our clean, friendly,
                 and experienced salon ensures you leave feeling beautiful and refreshed.
               </p>
-              {/* French Tips Image */}
               <div className="w-full flex justify-center my-6">
                 <div className="relative w-full max-w-sm aspect-square">
                   <Image

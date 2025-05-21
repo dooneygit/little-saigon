@@ -2,15 +2,38 @@ import React from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import Head from "next/head";
+export const metadata = {
+  title: "Nail & Spa Services | Little Saigon Nails Hamilton",
+  description: "Explore our full range of nail and spa services: manicures, pedicures, nail art, Bio Gel, waxing, and more. Serving women, men, and kids in Hamilton.",
+  keywords: [
+    "nail services Hamilton", "manicure pedicure Hamilton", "shellac manicure",
+    "bio gel nails Hamilton", "waxing Hamilton", "nail art Hamilton", 
+    "chrome nails", "kids nail care", "spa pedicure Hamilton"
+  ],
+  openGraph: {
+    title: "Nail & Spa Services | Little Saigon Nails Hamilton",
+    description: "Professional nail services in Hamilton for every occasion. Nails, waxing, and more from trained experts.",
+    url: "https://littlesaigonnails.com/services",
+    siteName: "Little Saigon Nails & Spa",
+    images: [{
+      url: "https://littlesaigonnails.com/og-services.jpg",
+      width: 1200,
+      height: 630,
+      alt: "Little Saigon nail services",
+    }],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Spa Services | Little Saigon Nails Hamilton",
+    description: "From shellac to deluxe pedicures, we’ve got your beauty needs covered.",
+    images: ["https://littlesaigonnails.com/og-services.jpg"],
+  },
+}
 
 export default function Services() {
   return (
     <div>
-      <Head>
-        <title>Our Services | Little Saigon Nails & Spa</title>
-        <meta name="description" content="Explore our professional services, including manicures, pedicures, acrylic nails, gel polish, and relaxing spa treatments." />
-        <meta name="keywords" content="nail services, manicure, pedicure, acrylic, gel nails, spa treatments, nail care" />
-      </Head>
       <NavBar />
       <main className="pt-[13rem] min-h-screen flex flex-col items-center mb-16 animate-[fadeIn_1s_ease-out_forwards]">
         <div className="p-5">

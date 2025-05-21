@@ -19,8 +19,8 @@ const NavBar = () => {
             <div className="font-roboto text-[0.8rem] flex justify-center md:justify-between">
               66 MALL RD, HAMILTON, ON L8V 5B9
               <div className="hidden 2xl:flex space-x-4">
-                <Socials href="facebook.com" icon={<FaFacebook size={20} />} />
-                <Socials href="instagram.com" icon={<FaInstagram size={20} />} />
+                <Socials href="https://www.facebook.com/littlesaigonnails/" icon={<FaFacebook size={20} />} />
+                <Socials href="https://www.instagram.com/littlesaigonnails_hamilton/" icon={<FaInstagram size={20} />} />
               </div>
             </div>
           </div>

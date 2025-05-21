@@ -3,17 +3,39 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import GoogleReviews from "./components/GoogleReviews";
 import Head from "next/head";
+export const metadata = {
+  title: "Little Saigon Nails & Spa | Hamilton's Top Nail Salon",
+  description: "Experience premium nail care and spa services in Hamilton at Little Saigon Nails & Spa. Clean, modern, and family-friendly nail salon for manicures, pedicures, waxing, and nail art.",
+  keywords: [
+    "Hamilton nail salon", "nail spa Hamilton", "best nail salon Hamilton",
+    "manicure Hamilton", "pedicure Hamilton", "bio gel nails", "nail art Hamilton",
+    "shellac manicure", "spa pedicure", "nail salon near me", "nail spa Ontario"
+  ],
+  openGraph: {
+    title: "Little Saigon Nails & Spa | Hamilton's Top Nail Salon",
+    description: "Clean, friendly, and professional nail spa offering manicures, pedicures, waxing, and modern nail art in Hamilton, ON.",
+    url: "https://littlesaigonnails.com",
+    siteName: "Little Saigon Nails & Spa",
+    images: [{
+      url: "https://littlesaigonnails.com/og-home.jpg",
+      width: 1200,
+      height: 630,
+      alt: "Little Saigon Nails & Spa storefront",
+    }],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Little Saigon Nails & Spa | Hamilton Nail Salon",
+    description: "Relax and refresh with expert nail care in Hamilton, ON.",
+    images: ["https://littlesaigonnails.com/og-home.jpg"],
+  },
+}
+
+
 export default function Home() {
   return (
     <>
-    <Head>
-      <title>Little Saigon Nails & Spa</title>
-      <meta name="description" content="Welcome to Little Saigon Nails & Spa – a relaxing and luxurious nail salon experience offering manicures, pedicures, and spa treatments in [City]." />
-      <meta name="keywords" content="nail salon, manicure, pedicure, spa, Little Saigon, beauty, nails, Hamilton" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta name="robots" content="index, follow" />
-    </Head>
-
       <NavBar />
       <main className="pt-[12rem] min-h-screen flex flex-col animate-[fadeIn_1s_ease-out_forwards]">
       <div className="flex flex-col lg:flex-row w-full">
