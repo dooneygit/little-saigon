@@ -2,7 +2,6 @@ import Image from "next/image";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import GoogleReviews from "./components/GoogleReviews";
-import Head from "next/head";
 export const metadata = {
   title: "Little Saigon Nails & Spa | Hamilton's Top Nail Salon",
   description: "Experience premium nail care and spa services in Hamilton at Little Saigon Nails & Spa. Clean, modern, and family-friendly nail salon for manicures, pedicures, waxing, and nail art.",

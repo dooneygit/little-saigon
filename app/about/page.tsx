@@ -2,7 +2,6 @@ import React from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import Image from "next/image";
-import Head from "next/head";
 export const metadata = {
   title: "About Us | Little Saigon Nails & Spa Hamilton",
   description: "Get to know our family-owned Hamilton nail salon. At Little Saigon Nails & Spa, we prioritize cleanliness, comfort, and care in a welcoming spa environment.",

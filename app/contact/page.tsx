@@ -3,7 +3,6 @@ import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import Socials from "../components/Socials";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
-import Head from "next/head";
 export const metadata = {
   title: "Contact Us | Little Saigon Nails Hamilton",
   description: "Get in touch with Little Saigon Nails & Spa in Hamilton. Visit our nail salon, book appointments, or ask questions — we’re here to help.",

@@ -1,7 +1,6 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-import Head from "next/head";
 export const metadata = {
   title: "Special Offers & Promotions | Little Saigon Nails Hamilton",
   description: "View our latest nail and spa promotions. Affordable beauty services, seasonal offers, and special discounts in Hamilton, ON.",
