@@ -14,16 +14,16 @@ const NavBar = () => {
       <div className="flex justify-between items-center w-full">
         <div className="flex space-x-8 items-center">
           <Logo/>
-          <div className="space-y-3">
-            <div className="font-kaushan text-extrabold text-[2.5rem]">Little Saigon <br className="2xl:hidden" /><span className="hidden md:inline">Nails & Spa</span></div>
-            <div className="font-roboto text-[0.8rem] flex justify-center md:justify-between">
-              66 MALL RD, HAMILTON, ON L8V 5B9
-              <div className="hidden 2xl:flex space-x-4">
-                <Socials href="https://www.facebook.com/littlesaigonnails/" icon={<FaFacebook size={20} />} />
-                <Socials href="https://www.instagram.com/littlesaigonnails_hamilton/" icon={<FaInstagram size={20} />} />
+            <div className="space-y-3">
+              <div className="hidden md:block font-kaushan text-extrabold text-[2.5rem]">Little Saigon <br className="2xl:hidden" /><span className="hidden md:inline">Nails & Spa</span></div>
+              <div className="font-roboto text-[0.8rem] flex space-x-4 space-y-4 flex-col md:flex-row">
+                <div>66 MALL RD, <br className="md:hidden"/> HAMILTON ON L8V 5B9</div>
+                <div className="flex space-x-4">
+                  <Socials href="https://www.facebook.com/littlesaigonnails/" icon={<FaFacebook size={20} />} />
+                  <Socials href="https://www.instagram.com/littlesaigonnails_hamilton/" icon={<FaInstagram size={20} />} />
+                </div>
               </div>
             </div>
-          </div>
         </div>
         <div className="hidden xl:flex space-x-8 items-center">
           <NavLink href="/" text="HOME" icon={<FaHome size = {23} />} />
