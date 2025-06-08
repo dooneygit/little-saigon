@@ -7,7 +7,7 @@ export default function HamburgerMenu() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="relative xl:hidden">
+    <div className="xl:hidden">
       <button
         onClick={() => setOpen(!open)}
         className="flex flex-col justify-between w-8 h-6 focus:outline-none active:scale-95"
