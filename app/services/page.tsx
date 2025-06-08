@@ -47,7 +47,7 @@ export default function Services() {
             SERVICES
           </div>
     <div className="bg-gray-100 p-6 rounded-xl w-[90%] mx-auto">
-      <h2 className="text-zinc-800 text-center font-markazi text-[2rem]">COMPLIMENTARY TEA, POP, WATER, COFFEE</h2>
+      <h2 className="text-zinc-800 text-center font-markazi text-[1.5rem] md:text-[2rem]">COMPLIMENTARY TEA, POP, WATER, COFFEE</h2>
       <div className="flex flex-wrap justify-center gap-x-12 gap-y-6">
         <div className="w-[6.5rem] sm:w-[7rem] md:w-[8rem] aspect-[1/1] rounded-xl overflow-hidden shadow-lg relative">
           <Image
