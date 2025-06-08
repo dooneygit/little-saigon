@@ -47,7 +47,7 @@ export default function Home() {
     <div className="overflow-x-hidden">
       <NavBar />
 
-      <main className="pt-[12rem] min-h-screen flex flex-col animate-[fadeIn_1s_ease-out_forwards]">
+      <main className="pt-[10rem] sm:pt-[12rem] min-h-screen flex flex-col animate-[fadeIn_1s_ease-out_forwards]">
         <div className="flex flex-col lg:flex-row w-full">
           <section className="relative flex-1 min-w-0 flex items-center justify-center px-4 py-12 sm:px-6 sm:py-16 lg:p-16 overflow-hidden">
             <div
