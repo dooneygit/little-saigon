@@ -17,7 +17,7 @@ const NavBar = () => {
             <div className="space-y-3">
               <div className="hidden md:block font-kaushan text-extrabold text-[2.5rem] text-white">Little Saigon <br className="2xl:hidden" /><span className="hidden md:inline">Nails & Spa</span></div>
               <div className="font-roboto text-[0.8rem] flex flex-col md:flex-row gap-y-2 md:gap-y-0 md:gap-x-4 text-white">
-                <div>66 MALL RD</div>
+                <div>66 MALL RD, <br className="md:hidden"/> HAMILTON ON L8V 5B9</div>
                 <div className="flex space-x-4">
                   <Socials href="https://www.facebook.com/littlesaigonnails/" icon={<FaFacebook size={20} className="text-white"/>} />
                   <Socials href="https://www.instagram.com/littlesaigonnails_hamilton/" icon={<FaInstagram size={20} className="text-white"/>} />

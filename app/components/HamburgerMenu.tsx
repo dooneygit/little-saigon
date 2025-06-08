@@ -10,12 +10,12 @@ export default function HamburgerMenu() {
     <div className="xl:hidden">
       <button
         onClick={() => setOpen(!open)}
-        className="flex flex-col justify-between w-8 h-6 focus:outline-none active:scale-95"
+        className="flex flex-col justify-between w-8 h-6 focus:outline-none active:scale-95 text-white"
         aria-label="Toggle menu"
       >
-        <span className="h-1 bg-white !bg-white rounded transition-all"></span>
-        <span className="h-1 bg-white !bg-white rounded transition-all"></span>
-        <span className="h-1 bg-white !bg-white rounded transition-all"></span>
+        <span className="w-full h-1 bg-white block rounded"></span>
+        <span className="w-full h-1 bg-white block rounded"></span>
+        <span className="w-full h-1 bg-white block rounded"></span>
       </button>
 
       {open && (
