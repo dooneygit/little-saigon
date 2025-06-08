@@ -1,7 +1,7 @@
-// Full Services Page: SEO + Layout Optimized + Content Fully Preserved
 import React from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+import Image from "next/image";
 
 export const metadata = {
   title: "Nail & Spa Services | Little Saigon Nails Hamilton",
@@ -32,7 +32,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Spa Services | Little Saigon Nails Hamilton",
     description:
-      "From shellac to deluxe pedicures, we’ve got your beauty needs covered.",
+      "From shellac to deluxe pedicures, we have got your beauty needs covered.",
     images: ["https://littlesaigonnails.com/og-services.jpg"],
   },
 };
@@ -42,10 +42,43 @@ export default function Services() {
     <div className="overflow-x-hidden">
       <NavBar />
       <main className="pt-[10rem] sm:pt-[13rem] min-h-screen flex flex-col items-center mb-16 px-4 sm:px-6 md:px-8 animate-[fadeIn_1s_ease-out_forwards]">
-        <div className="p-4 w-full max-w-6xl">
-          <h1 className="font-markazi text-black text-[2.5rem] sm:text-[3rem] md:text-[4rem] border-3 border-black text-center px-4 py-2 break-words">
+        <div className="p-4 w-full max-w-6xl space-y-6">
+          <div className="bg-zinc-800 p-6 rounded-xl flex flex-col items-center w-[70%] font-markazi text-white text-[2.5rem] sm:text-[3rem] md:text-[4rem] mx-auto">
             SERVICES
-          </h1>
+          </div>
+    <div className="bg-gray-100 p-6 rounded-xl w-[90%] mx-auto">
+      <h2 className="text-zinc-800 text-center font-markazi text-[2rem]">COMPLIMENTARY TEA, POP, WATER, COFFEE</h2>
+      <div className="flex flex-wrap justify-center gap-x-12 gap-y-6">
+        <div className="w-[6.5rem] sm:w-[7rem] md:w-[8rem] aspect-[1/1] rounded-xl overflow-hidden shadow-lg relative">
+          <Image
+            src="/images/coffee.avif"
+            alt="A hot cup of coffee"
+            fill
+            className="object-cover"
+            sizes="(max-width: 768px) 25vw, 10vw"
+            priority
+          />
+        </div>
+        <div className="w-[6.5rem] sm:w-[7rem] md:w-[8rem] aspect-[1/1] rounded-xl overflow-hidden shadow-lg relative">
+          <Image
+            src="/images/tea.avif"
+            alt="A warm cup of tea"
+            fill
+            className="object-cover"
+            sizes="(max-width: 768px) 25vw, 10vw"
+          />
+        </div>
+        <div className="w-[6.5rem] sm:w-[7rem] md:w-[8rem] aspect-[1/1] rounded-xl overflow-hidden shadow-lg relative">
+          <Image
+            src="/images/soda.avif"
+            alt="A cold glass of soda pop"
+            fill
+            className="object-cover"
+            sizes="(max-width: 768px) 25vw, 10vw"
+          />
+        </div>
+      </div>
+    </div>
           <p className="font-roboto text-black text-center mt-4">
             New discounted prices effective starting May 1st*
           </p>
@@ -91,14 +124,14 @@ export default function Services() {
           </div>
 
           <div className="bg-rose-300 p-6 rounded-xl w-full flex flex-col items-center">
-  <h2 className="text-[2.5rem] font-markazi text-red-700 text-center">SPECIAL COMBO</h2>
-  <ul className="list-disc text-[1.8rem] font-markazi text-white ml-5 mt-4">
-    <li>PEDICURE REGULAR + MANICURE REGULAR - $53 | KIDS - $38</li>
-    <li>PEDICURE REGULAR + MANICURE SHELLAC - $65 | KIDS - $48</li>
-    <li>PEDICURE SHELLAC + MANICURE REGULAR - $68 | KIDS - $53</li>
-    <li>PEDICURE SHELLAC + MANICURE SHELLAC - $80 | KIDS - $63</li>
-  </ul>
-</div>
+            <h2 className="text-[2.5rem] font-markazi text-red-700 text-center">SPECIAL COMBO</h2>
+            <ul className="list-disc text-[1.8rem] font-markazi text-white ml-5 mt-4">
+              <li>PEDICURE REGULAR + MANICURE REGULAR - $53 | KIDS - $38</li>
+              <li>PEDICURE REGULAR + MANICURE SHELLAC - $65 | KIDS - $48</li>
+              <li>PEDICURE SHELLAC + MANICURE REGULAR - $68 | KIDS - $53</li>
+              <li>PEDICURE SHELLAC + MANICURE SHELLAC - $80 | KIDS - $63</li>
+            </ul>
+          </div>
 
 <div className="bg-blue-200 p-8 rounded-xl w-full flex flex-col md:flex-row items-start justify-center gap-12">
   <div className="flex flex-col space-y-2 w-full md:w-1/2 items-center min-w-0">
@@ -157,6 +190,7 @@ export default function Services() {
 
 <div className="bg-rose-300 p-6 rounded-xl w-full">
   <h1 className="font-markazi text-[2.3rem] text-center">ADDITIONAL SERVICES</h1>
+  <br />
   <div className="w-full flex flex-col md:flex-row justify-center space-y-4 md:space-x-10 lg:space-x-30">
     <div className="flex flex-col items-center flex-1 min-w-0">
       <h2 className="font-markazi text-[2rem] text-red-800">OMBRE</h2>
