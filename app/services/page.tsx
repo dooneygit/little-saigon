@@ -53,7 +53,6 @@ export default function Services() {
 
         <div className="bg-blue-100 px-4 py-10 sm:px-8 md:px-10 rounded-2xl shadow-lg w-full max-w-6xl flex flex-col items-center space-y-10">
 
-          {/* All services content restored here */}
           <div className="bg-blue-200 p-6 rounded-xl w-full flex flex-col items-center">
             <div className="flex flex-col md:flex-row justify-center items-start w-full">
               <div className="flex flex-col items-center md:items-start w-full min-w-0">
@@ -181,8 +180,9 @@ export default function Services() {
       <ul className="text-[1.5rem] font-markazi text-white">
         <li className="text-[1.2rem]">WITH SERVICE: (BUFFER, FILE, SHAPE, & TRIM)</li>
         <li>SHELLAC REMOVAL W/ SERVICE - $5</li>
+        <li className="text-[1.1rem]">- JUST REMOVAL - $10</li>
         <li>ACRYLIC OR BIO GEL REMOVAL W/ SERVICE - $10</li>
-        <li>JUST REMOVAL- $15</li>
+        <li className="text-[1.1rem]">- JUST REMOVAL- $15</li>
       </ul>
     </div>
   </div>
