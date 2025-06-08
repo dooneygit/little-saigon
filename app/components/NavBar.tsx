@@ -10,7 +10,7 @@ import HamburgerMenu from "./HamburgerMenu";
 
 const NavBar = () => {
   return (
-    <nav className="fixed top-0 left-0 w-full bg-zinc-900 p-6 z-50">
+    <nav className="fixed top-0 left-0 w-full bg-zinc-900 p-6 md:p-4 2xl:p-6 z-50">
       <div className="flex justify-between items-center w-full">
         <div className="flex space-x-8 items-center">
           <Logo/>

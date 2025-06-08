@@ -41,7 +41,7 @@ export default function Services() {
   return (
     <div className="overflow-x-hidden">
       <NavBar />
-      <main className="pt-[13rem] min-h-screen flex flex-col items-center mb-16 px-4 sm:px-6 md:px-8 animate-[fadeIn_1s_ease-out_forwards]">
+      <main className="pt-[10rem] sm:pt-[13rem] min-h-screen flex flex-col items-center mb-16 px-4 sm:px-6 md:px-8 animate-[fadeIn_1s_ease-out_forwards]">
         <div className="p-4 w-full max-w-6xl">
           <h1 className="font-markazi text-black text-[2.5rem] sm:text-[3rem] md:text-[4rem] border-3 border-black text-center px-4 py-2 break-words">
             SERVICES

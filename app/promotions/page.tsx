@@ -38,7 +38,7 @@ export default function Promotions() {
   return (
     <div className="overflow-x-hidden">
       <NavBar />
-      <main className="pt-[13rem] min-h-screen flex flex-col items-center mb-16 px-4 sm:px-6 md:px-8 animate-[fadeIn_1s_ease-out_forwards]">
+      <main className="pt-[11rem] sm:pt-[13rem] min-h-screen flex flex-col items-center mb-16 px-4 sm:px-6 md:px-8 animate-[fadeIn_1s_ease-out_forwards]">
         <div className="relative w-full max-w-6xl min-w-0 min-h-screen">
           <div
             className="absolute inset-0 bg-cover bg-center blur-[4px]"

@@ -40,7 +40,7 @@ export default function Contact() {
   return (
     <div className="overflow-x-hidden">
       <NavBar />
-      <main className="overflow-x-hidden pt-[12rem] flex flex-col space-y-10 md:flex-row min-h-screen px-4 sm:px-6 md:px-8 animate-[fadeIn_1s_ease-out_forwards]">
+      <main className="overflow-x-hidden pt-[11rem] sm:pt-[12rem] flex flex-col space-y-10 md:flex-row min-h-screen px-4 sm:px-6 md:px-8 animate-[fadeIn_1s_ease-out_forwards]">
         <section className="flex-1 min-w-0 flex flex-col items-center pt-8 space-y-8">
           <div className="text-center">
             <h1 className="font-markazi text-[2.5rem] sm:text-[3rem] text-gray-700">CONTACT US</h1>
