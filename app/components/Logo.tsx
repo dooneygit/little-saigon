@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Logo() {
     return (
     <div className="flex space-x-10 items-center">
-      <Link href="/" className="relative w-36 h-36 border-3 border-white hover:-translate-y-2 duration-300"> 
+      <Link href="/" className="relative w-28 h-28 sm:w-36 sm:h-36 border-3 border-white hover:-translate-y-2 duration-300"> 
         <Image
           src="/images/logo.png" 
           alt="Logo for Little Saigon Nails & Spa Salon in Hamilton"

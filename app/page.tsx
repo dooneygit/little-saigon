@@ -6,7 +6,7 @@ import GoogleReviews from "./components/GoogleReviews";
 export const metadata = {
   title: "Little Saigon Nails & Spa | Hamilton's Best Nail Salon",
   description:
-    "Discover clean, professional nail care in Hamilton at Little Saigon Nails & Spa. Manicures, pedicures, waxing, and artistic nail design in a friendly, family-owned spa.",
+    "Discover clean, professional nail care in Hamilton at Little Saigon Nails & Spa. Manicures, pedicures, waxing, and artistic nail design in a friendly and clean family-owned spa and salon.",
   keywords: [
     "Hamilton nail salon",
     "best manicure Hamilton",
@@ -16,7 +16,7 @@ export const metadata = {
     "bio gel nails",
     "shellac manicure",
     "family-friendly spa Hamilton",
-    "nail spa near me"
+    "nail salon near me"
   ],
   openGraph: {
     title: "Little Saigon Nails & Spa | Hamilton Nail Spa",
