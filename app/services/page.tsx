@@ -84,13 +84,13 @@ export default function Services() {
           </p>
         </div>
 
-        <div className="bg-blue-100 px-4 py-10 sm:px-8 md:px-10 rounded-2xl shadow-lg w-full max-w-6xl flex flex-col items-center space-y-10">
+        <div className="bg-pink-200 px-4 py-10 sm:px-8 md:px-10 rounded-2xl shadow-lg w-full max-w-6xl flex flex-col items-center space-y-10">
 
-          <div className="bg-blue-200 p-6 rounded-xl w-full flex flex-col items-center">
+          <div className="bg-pink-100 p-6 rounded-xl w-full flex flex-col items-center">
             <div className="flex flex-col md:flex-row justify-center items-start w-full">
               <div className="flex flex-col items-center md:items-start w-full min-w-0">
-                <h2 className="text-[2.5rem] font-markazi text-blue-500 text-center md:text-left">REGULAR</h2>
-                <ul className="list-disc text-[1.5rem] font-markazi text-gray-700 ml-5">
+                <h2 className="text-[2.5rem] font-markazi text-pink-400 text-center md:text-left">REGULAR</h2>
+                <ul className="list-disc text-[1.5rem] font-markazi text-pink-300 ml-5">
                   <li>FINGERNAIL COLOR - 2 | KIDS - $8</li>
                   <li>TOENAIL COLOR - $15 | KIDS - $10</li>
                   <li>MANICURE - $23 | KIDS - $15</li>
@@ -98,8 +98,8 @@ export default function Services() {
                 </ul>
               </div>
               <div className="flex flex-col items-center md:items-start w-full min-w-0">
-                <h2 className="text-[2.5rem] font-markazi text-blue-500 text-center md:text-left">SHELLAC</h2>
-                <ul className="list-disc text-[1.5rem] font-markazi text-gray-700 ml-5">
+                <h2 className="text-[2.5rem] font-markazi text-pink-400 text-center md:text-left">SHELLAC</h2>
+                <ul className="list-disc text-[1.5rem] font-markazi text-pink-300 ml-5">
                   <li>FINGERNAIL SHELLAC - $25 | KIDS - $18</li>
                   <li>TOENAIL SHELLAC - $27 | KIDS - $20</li>
                   <li>MANICURE SHELLAC - $35 | KIDS - $28</li>
@@ -109,22 +109,22 @@ export default function Services() {
             </div>
             <div className="flex flex-col md:flex-row justify-center items-start w-full">
               <div className="flex flex-col items-center md:items-start w-full min-w-0">
-                <h2 className="text-[2.5rem] font-markazi text-blue-500 text-center md:text-left">TOENAIL & FINGERNAIL CUT</h2>
-                <ul className="list-disc text-[1.5rem] font-markazi text-gray-700 ml-5">
+                <h2 className="text-[2.5rem] font-markazi text-pink-400 text-center md:text-left">TOENAIL & FINGERNAIL CUT</h2>
+                <ul className="list-disc text-[1.5rem] font-markazi text-pink-300 ml-5">
                   <li>FINGERNAIL - $8 | TOENAIL - $10</li>
                 </ul>
               </div>
               <div className="flex flex-col items-center md:items-start w-full min-w-0">
-                <h2 className="text-[2.5rem] font-markazi text-blue-500 text-center md:text-left">PARAFFIN WAX</h2>
-                <ul className="list-disc text-[1.5rem] font-markazi text-gray-700 ml-5">
+                <h2 className="text-[2.5rem] font-markazi text-pink-400 text-center md:text-left">PARAFFIN WAX</h2>
+                <ul className="list-disc text-[1.5rem] font-markazi text-pink-300 ml-5">
                   <li>FINGERNAIL - $8 | TOENAIL - $10</li>
                 </ul>
               </div>
             </div>
           </div>
 
-          <div className="bg-rose-300 p-6 rounded-xl w-full flex flex-col items-center">
-            <h2 className="text-[2.5rem] font-markazi text-red-700 text-center">SPECIAL COMBO</h2>
+          <div className="bg-pink-400 p-6 rounded-xl w-full flex flex-col items-center">
+            <h2 className="text-[2.5rem] font-markazi text-white text-center">SPECIAL COMBO</h2>
             <ul className="list-disc text-[1.8rem] font-markazi text-white ml-5 mt-4">
               <li>PEDICURE REGULAR + MANICURE REGULAR - $53 | KIDS - $38</li>
               <li>PEDICURE REGULAR + MANICURE SHELLAC - $65 | KIDS - $48</li>
@@ -133,17 +133,17 @@ export default function Services() {
             </ul>
           </div>
 
-<div className="bg-blue-200 p-8 rounded-xl w-full flex flex-col md:flex-row items-start justify-center gap-12">
+<div className="bg-pink-100 p-8 rounded-xl w-full flex flex-col md:flex-row items-start justify-center gap-12">
   <div className="flex flex-col space-y-2 w-full md:w-1/2 items-center min-w-0">
     <div className="flex flex-col items-center md:items-start">
-      <h2 className="text-[2rem] font-markazi text-blue-500">BASIC PEDICURE - $35</h2>
+      <h2 className="text-[2rem] font-markazi text-pink-400">BASIC PEDICURE - $35</h2>
     </div>
     <div className="flex flex-col items-center md:items-start">
-      <h2 className="text-[2rem] font-markazi text-blue-500">PEDICURE + SUGAR SCRUB - $40</h2>
+      <h2 className="text-[2rem] font-markazi text-pink-400">PEDICURE + SUGAR SCRUB - $40</h2>
     </div>
     <div className="flex flex-col items-center">
-      <h2 className="text-[2rem] font-markazi text-blue-500">DELUXE PEDICURE - $45</h2>
-      <ul className="list-disc text-[1.3rem] font-markazi text-gray-700 ml-5 mt-2">
+      <h2 className="text-[2rem] font-markazi text-pink-400">DELUXE PEDICURE - $45</h2>
+      <ul className="list-disc text-[1.3rem] font-markazi text-pink-300 ml-5 mt-2">
         <li>Sugar scrub: Boosts skin vibrancy, tone, renews texture, diminishes lines and wrinkles, leaving skin exfoliated and feeling smooth.</li>
         <li>Paraffin wax: Increases blood flow, relaxes muscles, decreases joint stiffness, minimizes muscle spasms and inflammation, treats sprains.</li>
       </ul>
@@ -152,12 +152,12 @@ export default function Services() {
 
   <div className="flex flex-col space-y-5 w-full md:w-1/2 min-w-0">
     <div className="flex flex-col items-center md:items-start">
-      <h2 className="text-[2rem] font-markazi text-blue-500">PEDICURE + 10 MINUTE MASSAGE - $45</h2>
-      <p className="text-[1.5rem] font-markazi text-gray-700 mt-2">Included: Sugar Scrub</p>
+      <h2 className="text-[2rem] font-markazi text-pink-400">PEDICURE + 10 MINUTE MASSAGE - $45</h2>
+      <p className="text-[1.5rem] font-markazi text-pink-300 mt-2">Included: Sugar Scrub</p>
     </div>
     <div className="flex flex-col items-center md:items-start">
-      <h2 className="text-[2rem] font-markazi text-blue-500">PEDICURE + 20 MINUTE MASSAGE</h2>
-      <ul className="list-disc text-[1.3rem] font-markazi text-gray-700 ml-5 mt-2">
+      <h2 className="text-[2rem] font-markazi text-pink-400">PEDICURE + 20 MINUTE MASSAGE</h2>
+      <ul className="list-disc text-[1.3rem] font-markazi text-pink-300 ml-5 mt-2">
         <li>Sugar Scrub: Clears dead skin and reveals newer younger-looking skin.</li>
         <li>Hot Stone: Melts away mental stress, eases muscle stiffness, increases blood circulation, reduces tension, and promotes deep relaxation.</li>
       </ul>
@@ -166,52 +166,55 @@ export default function Services() {
 </div>
 
 
-        <div className="bg-blue-200 p-6 rounded-xl w-full">
-  <h1 className="font-markazi text-[2rem] text-blue-400 text-center md:text-left">BIO GEL ARTIFICIAL NAILS</h1>
+        <div className="bg-pink-100 p-6 rounded-xl w-full">
+  <h1 className="font-markazi text-[2rem] text-pink-400 text-center md:text-left">BIO GEL ARTIFICIAL NAILS</h1>
   <div className="w-full flex flex-col items-center">
     <div className="flex flex-col md:flex-row justify-center items-start w-full">
       <div className="flex flex-col items-center md:items-start w-full min-w-0">
-        <h2 className="text-[2rem] font-markazi text-blue-500 text-center md:text-left">FULL SET (WITH TIP) - $60</h2>
+        <h2 className="text-[2rem] font-markazi text-pink-300 text-center md:text-left">FULL SET (WITH TIP) - $60</h2>
       </div>
       <div className="flex flex-col items-center md:items-start w-full min-w-0">
-        <h2 className="text-[2rem] font-markazi text-blue-500 text-center md:text-left">REFILL - $50</h2>
+        <h2 className="text-[2rem] font-markazi text-pink-300 text-center md:text-left">REFILL - $50</h2>
       </div>
     </div>
     <div className="flex flex-col md:flex-row justify-center items-start w-full">
       <div className="flex flex-col items-center md:items-start w-full min-w-0">
-        <h2 className="text-[2rem] font-markazi text-blue-500 text-center md:text-left">OVERLAY (NO TIP) - $55</h2>
+        <h2 className="text-[2rem] font-markazi text-pink-300 text-center md:text-left">OVERLAY (NO TIP) - $55</h2>
       </div>
       <div className="flex flex-col items-center md:items-start w-full min-w-0">
-        <h2 className="text-[2rem] font-markazi text-blue-500 text-center md:text-left">EXTRA LENGTH OF NAILS - $5-10</h2>
+        <h2 className="text-[2rem] font-markazi text-pink-300 text-center md:text-left">EXTRA LENGTH OF NAILS - $5-10</h2>
       </div>
     </div>
   </div>
 </div>
 
-<div className="bg-rose-300 p-6 rounded-xl w-full">
-  <h1 className="font-markazi text-[2.3rem] text-center">ADDITIONAL SERVICES</h1>
-  <br />
-  <div className="w-full flex flex-col md:flex-row justify-center space-y-4 md:space-x-10 lg:space-x-30">
-    <div className="flex flex-col items-center flex-1 min-w-0">
-      <h2 className="font-markazi text-[2rem] text-red-800">OMBRE</h2>
-      <ul className="list-disc text-[1.5rem] font-markazi text-white">
-        <li>SPARKLE OMBRE NAILS - $5</li>
-        <li>AIRBRUSH OMBRE NAIL - $10</li>
-        <li>COLOR OMBRE NAIL - $15</li>
-      </ul>
+<div className="bg-pink-400 p-6 rounded-xl w-full">
+  <h1 className="font-markazi text-[3rem] text-center text-white">ADDITIONAL SERVICES</h1>
+  <div className="w-full flex flex-col items-center space-y-4">
+
+    <div className="w-full flex flex-col md:flex-row justify-center space-y-4 md:gap-x-2">
+      <div className="flex flex-col items-center flex-1 min-w-0">
+        <h2 className="font-markazi text-[2rem] text-white">OMBRE</h2>
+        <ul className="list-disc text-[1.5rem] font-markazi text-white text-center">
+          <li>SPARKLE OMBRE NAILS - $5</li>
+          <li>AIRBRUSH OMBRE NAIL - $10</li>
+          <li>COLOR OMBRE NAIL - $15</li>
+        </ul>
+      </div>
+      <div className="flex flex-col items-center flex-1 min-w-0">
+        <h2 className="font-markazi text-[2rem] text-white">FRENCH DESIGN</h2>
+        <ul className="list-disc text-[1.5rem] font-markazi text-white text-center">
+          <li>FRENCH - $5</li>
+          <li>DEEP FRENCH - $8</li>
+          <li>CHROME - $10</li>
+          <li>CAT EYE - $10</li>
+        </ul>
+      </div>
     </div>
-    <div className="flex flex-col items-center flex-1 w-full min-w-0">
-      <h2 className="font-markazi text-[2rem] text-red-800">FRENCH DESIGN</h2>
-      <ul className="list-disc text-[1.5rem] font-markazi text-white">
-        <li>FRENCH - $5</li>
-        <li>DEEP FRENCH - $8</li>
-        <li>CHROME - $10</li>
-        <li>CAT EYE - $10</li>
-      </ul>
-    </div>
-    <div className="flex flex-col items-center flex-1 min-w-0">
-      <h2 className="font-markazi text-[1.8rem] text-red-800">REMOVAL</h2>
-      <ul className="text-[1.5rem] font-markazi text-white">
+
+    <div className="flex flex-col items-center w-full md:w-2/3">
+      <h2 className="font-markazi text-[1.8rem] text-white">REMOVAL</h2>
+      <ul className="text-[1.5rem] font-markazi text-white text-center">
         <li className="text-[1.2rem]">WITH SERVICE: (BUFFER, FILE, SHAPE, & TRIM)</li>
         <li>SHELLAC REMOVAL W/ SERVICE - $5</li>
         <li className="text-[1.1rem]">- JUST REMOVAL - $10</li>
@@ -222,11 +225,12 @@ export default function Services() {
   </div>
 </div>
 
-<div className="bg-blue-200 p-6 rounded-xl w-full">
-  <h1 className="font-markazi text-[3rem] text-blue-500 w-full text-center md:ml-6 md:text-left">WAXING</h1>
+
+<div className="bg-pink-100 p-6 rounded-xl w-full">
+  <h1 className="font-markazi text-[3rem] text-pink-400 w-full text-center md:ml-6 md:text-left">WAXING</h1>
   <div className="flex flex-col md:flex-row w-full items-center justify-center gap-4">
     <div className="flex-1 flex flex-col items-center min-w-0">
-      <ul className="list-disc text-[1.8rem] font-markazi break-words text-gray-700">
+      <ul className="list-disc text-[1.8rem] font-markazi break-words text-pink-300">
         <li>UPPER LIP - $6</li>
         <li>CHIN - $8</li>
         <li>SIDEBURNS - $10</li>
@@ -238,7 +242,7 @@ export default function Services() {
       </ul>
     </div>
     <div className="flex-1 flex flex-col items-center min-w-0">
-      <ul className="list-disc text-[1.8rem] font-markazi break-words flex-1 text-gray-700">
+      <ul className="list-disc text-[1.8rem] font-markazi break-words flex-1 text-pink-300">
         <li>FULL FACE - $33</li>
         <li>CHEST OR BELLY - $35</li>
         <li>HALF ARMS - $25</li>
