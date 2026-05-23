@@ -4,8 +4,9 @@ import NavLink from "./NavLink";
 import Logo from "./Logo";
 import Contact from "./Contact";
 import Socials from "./Socials";
-import { FaFacebook, FaInstagram, FaHome, FaGift, FaHeart, FaHandSparkles } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaHome, FaGift, FaHeart } from "react-icons/fa";
 import HamburgerMenu from "./HamburgerMenu";
+import ServicesDropdown from "./ServicesDropdown";
 
 
 const NavBar = () => {
@@ -28,7 +29,7 @@ const NavBar = () => {
         <div className="hidden xl:flex space-x-8 items-center">
           <NavLink href="/" text="HOME" icon={<FaHome size = {23} />} />
           <NavLink href="/about" text="ABOUT US" icon={<FaHeart size = {23} />} />
-          <NavLink href="/services" text="SERVICES" icon={<FaHandSparkles size = {23} />} />
+          <ServicesDropdown />
           <NavLink href="/promotions" text="PROMOTIONS" icon={<FaGift size = {23} />} />
           <Contact />
         </div>
