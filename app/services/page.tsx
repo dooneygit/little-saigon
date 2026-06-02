@@ -90,17 +90,17 @@ export default function Services() {
                 <ul className="list-disc text-[1.5rem] font-markazi text-pink-300 ml-5">
                   <li>FINGERNAIL COLOR - $12</li>
                   <li>TOENAIL COLOR - $15</li>
-                  <li>MANICURE - $23 | KIDS - $15</li>
-                  <li>PEDICURE - $35 | KIDS - $23</li>
+                  <li>MANICURE - $26</li>
+                  <li>PEDICURE - $38</li>
                 </ul>
               </div>
               <div className="flex flex-col items-center md:items-start w-full min-w-0">
                 <h2 className="text-[2.5rem] font-markazi text-pink-400 text-center md:text-left">SHELLAC</h2>
                 <ul className="list-disc text-[1.5rem] font-markazi text-pink-300 ml-5">
-                  <li>FINGERNAIL SHELLAC - $25 | KIDS - $18</li>
-                  <li>TOENAIL SHELLAC - $27 | KIDS - $20</li>
-                  <li>MANICURE SHELLAC - $35 | KIDS - $28</li>
-                  <li>PEDICURE SHELLAC - $50 | KIDS - $38</li>
+                  <li>FINGERNAIL SHELLAC - $25</li>
+                  <li>TOENAIL SHELLAC - $27</li>
+                  <li>MANICURE SHELLAC - $38</li>
+                  <li>PEDICURE SHELLAC - $53</li>
                 </ul>
               </div>
             </div>
@@ -123,10 +123,10 @@ export default function Services() {
           <div className="bg-pink-400 p-6 rounded-xl w-full flex flex-col items-center">
             <h2 className="text-[2.5rem] font-markazi text-white text-center">SPECIAL COMBO</h2>
             <ul className="list-disc text-[1.8rem] font-markazi text-white ml-5 mt-4">
-              <li>PEDICURE REGULAR + MANICURE REGULAR - $53 | KIDS - $38</li>
-              <li>PEDICURE REGULAR + MANICURE SHELLAC - $65 | KIDS - $48</li>
-              <li>PEDICURE SHELLAC + MANICURE REGULAR - $68 | KIDS - $53</li>
-              <li>PEDICURE SHELLAC + MANICURE SHELLAC - $80 | KIDS - $63</li>
+              <li>PEDICURE REGULAR + MANICURE REGULAR - $59</li>
+              <li>PEDICURE REGULAR + MANICURE SHELLAC - $71</li>
+              <li>PEDICURE SHELLAC + MANICURE REGULAR - $74</li>
+              <li>PEDICURE SHELLAC + MANICURE SHELLAC - $86</li>
             </ul>
           </div>
 
@@ -136,10 +136,10 @@ export default function Services() {
       <h2 className="text-[2rem] font-markazi text-pink-400">BASIC PEDICURE - $35</h2>
     </div>
     <div className="flex flex-col items-center md:items-start">
-      <h2 className="text-[2rem] font-markazi text-pink-400">PEDICURE + SUGAR SCRUB - $40</h2>
+      <h2 className="text-[2rem] font-markazi text-pink-400">PEDICURE + SUGAR SCRUB - $43</h2>
     </div>
     <div className="flex flex-col items-center">
-      <h2 className="text-[2rem] font-markazi text-pink-400">DELUXE PEDICURE - $45</h2>
+      <h2 className="text-[2rem] font-markazi text-pink-400">DELUXE PEDICURE - $48</h2>
       <ul className="list-disc text-[1.3rem] font-markazi text-pink-300 ml-5 mt-2">
         <li>Sugar scrub: Boosts skin vibrancy, tone, renews texture, diminishes lines and wrinkles, leaving skin exfoliated and feeling smooth.</li>
         <li>Paraffin wax: Increases blood flow, relaxes muscles, decreases joint stiffness, minimizes muscle spasms and inflammation, treats sprains.</li>
@@ -149,11 +149,11 @@ export default function Services() {
 
   <div className="flex flex-col space-y-5 w-full md:w-1/2 min-w-0">
     <div className="flex flex-col items-center md:items-start">
-      <h2 className="text-[2rem] font-markazi text-pink-400">PEDICURE + 10 MINUTE MASSAGE - $45</h2>
+      <h2 className="text-[2rem] font-markazi text-pink-400">PEDICURE + 10 MINUTE MASSAGE - $48</h2>
       <p className="text-[1.5rem] font-markazi text-pink-300 mt-2">Included: Sugar Scrub</p>
     </div>
     <div className="flex flex-col items-center md:items-start">
-      <h2 className="text-[2rem] font-markazi text-pink-400">PEDICURE + 20 MINUTE MASSAGE</h2>
+      <h2 className="text-[2rem] font-markazi text-pink-400">PEDICURE + 20 MINUTE MASSAGE - $63</h2>
       <ul className="list-disc text-[1.3rem] font-markazi text-pink-300 ml-5 mt-2">
         <li>Sugar Scrub: Clears dead skin and reveals newer younger-looking skin.</li>
         <li>Hot Stone: Melts away mental stress, eases muscle stiffness, increases blood circulation, reduces tension, and promotes deep relaxation.</li>
@@ -168,15 +168,15 @@ export default function Services() {
   <div className="w-full flex flex-col items-center">
     <div className="flex flex-col md:flex-row justify-center items-start w-full">
       <div className="flex flex-col items-center md:items-start w-full min-w-0">
-        <h2 className="text-[2rem] font-markazi text-pink-300 text-center md:text-left">FULL SET (WITH TIP) - $60</h2>
+        <h2 className="text-[2rem] font-markazi text-pink-300 text-center md:text-left">FULL SET (WITH TIP) - $63</h2>
       </div>
       <div className="flex flex-col items-center md:items-start w-full min-w-0">
-        <h2 className="text-[2rem] font-markazi text-pink-300 text-center md:text-left">REFILL - $50</h2>
+        <h2 className="text-[2rem] font-markazi text-pink-300 text-center md:text-left">REFILL - $53</h2>
       </div>
     </div>
     <div className="flex flex-col md:flex-row justify-center items-start w-full">
       <div className="flex flex-col items-center md:items-start w-full min-w-0">
-        <h2 className="text-[2rem] font-markazi text-pink-300 text-center md:text-left">OVERLAY (NO TIP) - $55</h2>
+        <h2 className="text-[2rem] font-markazi text-pink-300 text-center md:text-left">OVERLAY (NO TIP) - $58</h2>
       </div>
       <div className="flex flex-col items-center md:items-start w-full min-w-0">
         <h2 className="text-[2rem] font-markazi text-pink-300 text-center md:text-left">EXTRA LENGTH OF NAILS - $5-10</h2>
