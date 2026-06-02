@@ -79,9 +79,6 @@ export default function Services() {
         </div>
       </div>
     </div>
-          <p className="font-roboto text-black text-center mt-4">
-            New discounted prices effective starting May 1st*
-          </p>
         </div>
 
         <div className="bg-pink-200 px-4 py-10 sm:px-8 md:px-10 rounded-2xl shadow-lg w-full max-w-6xl flex flex-col items-center space-y-10">
@@ -91,8 +88,8 @@ export default function Services() {
               <div className="flex flex-col items-center md:items-start w-full min-w-0">
                 <h2 className="text-[2.5rem] font-markazi text-pink-400 text-center md:text-left">REGULAR</h2>
                 <ul className="list-disc text-[1.5rem] font-markazi text-pink-300 ml-5">
-                  <li>FINGERNAIL COLOR - 2 | KIDS - $8</li>
-                  <li>TOENAIL COLOR - $15 | KIDS - $10</li>
+                  <li>FINGERNAIL COLOR - $12</li>
+                  <li>TOENAIL COLOR - $15</li>
                   <li>MANICURE - $23 | KIDS - $15</li>
                   <li>PEDICURE - $35 | KIDS - $23</li>
                 </ul>
