@@ -1,7 +1,7 @@
 import Image from "next/image";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
-import GoogleReviews from "./components/GoogleReviews";
+import ReviewCarousel from "./components/ReviewCarousel";
 
 export const metadata = {
   title: "Little Saigon Nails & Spa | Hamilton's Best Nail Salon",
@@ -78,10 +78,20 @@ export default function Home() {
         </div>
 
         <section className="w-full bg-white px-4 py-12 sm:px-8 md:px-16 overflow-hidden">
-          <h2 className="text-2xl sm:text-3xl font-markazi text-center text-black mb-6 break-words">
-            What Our Clients Say
-          </h2>
-          <GoogleReviews />
+          <div className="flex items-center justify-center gap-3 mb-6">
+            <Image
+              src="/images/google_reviews.webp"
+              alt="Google"
+              width={96}
+              height={32}
+              className="object-contain"
+            />
+            <h2 className="text-2xl sm:text-3xl font-markazi text-black">
+              Reviews
+            </h2>
+          </div>
+
+          <ReviewCarousel />
         </section>
       </main>
 
