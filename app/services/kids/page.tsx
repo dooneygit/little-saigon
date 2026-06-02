@@ -78,9 +78,6 @@ export default function KidsServices() {
               </div>
             </div>
           </div>
-          <p className="font-roboto text-black text-center mt-4">
-            New discounted prices effective starting May 1st*
-          </p>
         </div>
 
         <div className="bg-pink-200 px-4 py-10 sm:px-8 md:px-10 rounded-2xl shadow-lg w-full max-w-6xl flex flex-col items-center space-y-10">

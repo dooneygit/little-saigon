@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata = {
   title: "Nail & Spa Services | Little Saigon Nails Hamilton",
@@ -79,7 +80,10 @@ export default function Services() {
         </div>
       </div>
     </div>
-        </div>
+          <p className="font-roboto text-black text-center mt-4 text-[1.2rem]">
+            For kids discounts, see our <Link href="services/kids" className="text-blue-400 font-bold">KIDS menu</Link>
+          </p>
+    </div>
 
         <div className="bg-pink-200 px-4 py-10 sm:px-8 md:px-10 rounded-2xl shadow-lg w-full max-w-6xl flex flex-col items-center space-y-10">
 
