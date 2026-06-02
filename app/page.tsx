@@ -1,6 +1,7 @@
 import Image from "next/image";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import ReviewCarousel from "./components/ReviewCarousel";
 
 export const metadata = {
   title: "Little Saigon Nails & Spa | Hamilton's Best Nail Salon",
@@ -90,6 +91,7 @@ export default function Home() {
             </h2>
           </div>
 
+          <ReviewCarousel />
         </section>
       </main>
 
