@@ -27,6 +27,30 @@ const REVIEWS = [
     rating: 5,
     text: "The BEST nail salon, ever! I was immediately welcomed, questions answered — as it has been a few years, since my last salon visit. The owner (Tommy) introduced himself, and ensured I was comfortable. The nail stylist was very sweet, making great suggestions based upon what I was looking for. I did not, at any time, feel rushed but welcomed. The stylist (Mimi) took her time and went above and beyond. I cannot be happier or more impressed with the service, the set up and cleanliness of this salon.",
   },
+  {
+    id: 4,
+    name: 'Stephanie Beaulieu',
+    initials: 'SB', 
+    avatarColor: '#4285F4',
+    rating: 5,
+    text: 'Had an amazing experience at Little Saigon and Mimi did a perfect job on my daughter’s first pair of gel nails! Christine knocked it out of the park with the custom Stitch nails too!'
+  },
+  {
+    id: 5,
+    name: 'Elizabeth Bentley',
+    initials: 'EB', 
+    avatarColor: '#EA4335',
+    rating: 5,
+    text: 'First time guest and my goodness did this team give me an amazing experience. Ashley did my pedicure and did a very clean and cute pedicure! Jan did my bio gel nail and wow, she did an absolutely spectacular job! My nails look absolutely phenomenal and she exceeded anything I thought possible! I will recommend jan and this salon to all my girlies and will be back!!! I cannot recommend jan enough she stayed 30 minutes after close to finish my nails and they look fantastic. I super appreciate her 💗💗'
+  },
+  {
+    id: 6,
+    name: 'Julia Evanovitch',
+    initials: 'JE', 
+    avatarColor: '#34A853',
+    rating: 5,
+    text: 'This salon is a gem! The staff are amazing, the vibes are perfect, and my nails have never looked better. Plus, the complimentary beverages? Such a cute bonus! I always look forward to coming back! Thank you Mimi and team! :)'
+  }
 ];
 
 function StarRating({ rating, size = 'sm' }: { rating: number; size?: 'sm' | 'lg' }) {
