@@ -51,7 +51,7 @@ export default function Promotions() {
               </h1>
               <ul className="text-[1.8rem] sm:text-[2.2rem] font-markazi text-pink-300 text-center space-y-4 mt-6 break-words">
                 <li>10% OFF FOR BIRTHDAY PARTIES OR WEDDING GROUPS.</li>
-                <li>10% OFF FOR GROUP OF 4 OR MORE</li>
+                <li>10% OFF FOR GROUP OF 3 OR MORE</li>
                 <li>PEDICURE + 20 MINUTE MASSAGE - $60</li>
                 <li className="text-[1.6rem] text-pink-900">(CALL IN ADVANCE TO BOOK AN APPOINTMENT)</li>
               </ul>

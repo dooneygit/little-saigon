@@ -137,7 +137,7 @@ export default function Services() {
 <div className="bg-pink-100 p-8 rounded-xl w-full flex flex-col md:flex-row items-start justify-center gap-12">
   <div className="flex flex-col space-y-2 w-full md:w-1/2 items-center min-w-0">
     <div className="flex flex-col items-center md:items-start">
-      <h2 className="text-[2rem] font-markazi text-pink-400">BASIC PEDICURE - $35</h2>
+      <h2 className="text-[2rem] font-markazi text-pink-400">BASIC PEDICURE - $38</h2>
     </div>
     <div className="flex flex-col items-center md:items-start">
       <h2 className="text-[2rem] font-markazi text-pink-400">PEDICURE + SUGAR SCRUB - $43</h2>
@@ -207,6 +207,7 @@ export default function Services() {
         <ul className="list-disc text-[1.5rem] font-markazi text-white text-center">
           <li>FRENCH - $5</li>
           <li>DEEP FRENCH - $8</li>
+          <li>DOUBLE FRENCH - $10</li>
           <li>CHROME - $10</li>
           <li>CAT EYE - $10</li>
         </ul>
