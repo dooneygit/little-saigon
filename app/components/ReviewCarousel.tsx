@@ -50,7 +50,31 @@ const REVIEWS = [
     avatarColor: '#34A853',
     rating: 5,
     text: 'This salon is a gem! The staff are amazing, the vibes are perfect, and my nails have never looked better. Plus, the complimentary beverages? Such a cute bonus! I always look forward to coming back! Thank you Mimi and team! :)'
-  }
+  },
+  {
+    id: 7,
+    name: 'Rachel Kennedy',
+    initials: 'RK', 
+    avatarColor: '#4285F4',
+    rating: 5,
+    text: 'I have been coming to see Mya at Little Saigon for over two years and I am always extremely satisfied with my nails, no matter what design I ask for she always blows my expectations out of the park! I 100% recommend both Mya and Little Saigon to anyone who is looking for a new nail place!'
+  },
+  {
+    id: 8,
+    name: 'Joanna Nicole',
+    initials: 'JN', 
+    avatarColor: '#EA4335',
+    rating: 5,
+    text: 'Love this salon. All of the employees are so fun to talk to, super friendly and all do amazing work. I’ve been coming here for nails since it opened. I show a picture of what I want and it’s matched 100%, not to mention they always accommodate walk ins! Favourite salon in Hamilton hands down. I recommend having lunch next door as well!!'
+  },
+  {
+    id: 9,
+    name: 'Lisa Scott',
+    initials: 'LS', 
+    avatarColor: '#34A853',
+    rating: 5,
+    text: 'The best nail salon in Hamilton!!!! The environment is is clean and the ladies are always nice. My nails ways look fantastic. I’ve been to a few (hundred) nail salons in my day but little Saigon will always be my favourite!!!! I recommend trying the salt scrub and massage with your pedicure.'
+  },
 ];
 
 function StarRating({ rating, size = 'sm' }: { rating: number; size?: 'sm' | 'lg' }) {
